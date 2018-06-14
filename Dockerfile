@@ -13,7 +13,6 @@ RUN cd /opt/beautifulmind/
 RUN git clone https://github.com/person896/BeautifulMind.io.git www
 RUN cd www
 RUN cd www && git checkout production
-RUN chown -R www-data:www-data /opt/beautifulmind/
 
 RUN cd beautifulmind
 RUN pip install -U pip
